@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalamus Warrior - Inicio</title>
+    <link rel="stylesheet" href="tiendakalamus.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">Kalamus Warrior</div>
+        <nav>
+            <ul class="menu">
+                <li class="itemMenu"><a class="link" href="INDEX.HTML">Inicio</a></li>
+                <li class="itemMenu dropdown"><a href="INDEX.HTML">Catálogo</a>
+                    <ul class="submenu">
+                        <li><a class="link" href="cursos.html">Cursos</a></li>
+                        <li><a class="link" href="merch.html">Merchandising</a></li>
+                        <li><a class="link" href="elementos.html">Elementos de entrenamiento</a></li>
+                    </ul>
+                </li>
+                <li class="itemMenu"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="iconoCarrito">
+            🛒 <span id="contadorCarrito">0</span>
+        </div>
+    </header>
+    <section class="portada">
+        <h1>El mejor boxeo filipino</h1>
+        <p>Vinilos, CDs y ediciones especiales para verdaderos coleccionistas.</p>
+    </section>
+    <main class="contenedor">
+        <div class="encabezado-ofertas">
+            <h2>Nuestras ofertas destacadas</h2>
+            <div class="buscador">
+                <input type="text" id="inputBusqueda" placeholder="Buscar...">
+            </div>
+        </div>
+        </div>
+
+        <section class="contenedorCards">
+            <div class="producto" data-price="22000">
+                <img src="/maqueta/img/Ramones_-_Ramones_cover.jpg" alt="Dark Side">
+                <h3>Ramones - Ramones</h3>
+                <p class="precio">$22 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-price="23000">
+                <img src="/maqueta/img/images.png" alt="Thriller">
+                <h3>The Neighbourhood - Wiped Out!</h3>
+                <p class="precio">$23 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-price="19500">
+                <img src="/maqueta/img/Radioheadkida.png" alt="RAM">
+                <h3>Radiohead - Kid A</h3>
+                <p class="precio">$19 500</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+
+            <div class="producto" data-price="28000">
+                <img src="/maqueta/img/images (1).jpeg" alt="AM">
+                <h3>Michael Jackson - Thriller</h3>
+                <p class="precio">$28 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+
+            <div class="producto" data-price="20000">
+                <img src="/maqueta/img/Beatles_-_Abbey_Road.jpg" alt="Thriller">
+                <h3>The Beatles - Abbey Road</h3>
+                <p class="precio">$20 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-price="21000">
+                <img src="/maqueta/img/NirvanaNevermindalbumcover.jpg" alt="Thriller">
+                <h3>Nirvana - Nevermind</h3>
+                <p class="precio">$21 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-price="20000">
+                <img src="/maqueta/img/Queen_A_Night_At_The_Opera.png" alt="Thriller">
+                <h3>Queen - A Night At The Opera</h3>
+                <p class="precio">$20 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-price="31000">
+                <img src="/maqueta/img/images (2).jpeg" alt="Thriller">
+                <h3>Rammstein - Sehnsucht</h3>
+                <p class="precio">$31 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+
+        </section>
+
+        <aside class="carritoPanel" id="carritoPanel">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista"></ul>
+            <p class="total">Total: <span class="totalPrecio">$0</span></p>
+            <button id="vaciar">Vaciar Carrito</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 VinylStore - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./app/mainjj.js"></script>
+</body>
+
+</html>

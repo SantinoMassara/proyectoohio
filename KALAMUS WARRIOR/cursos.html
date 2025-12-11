@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalamus Warrior - Cursos</title>
+    <link rel="stylesheet" href="./categorias.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">Kalamus Warrior</div>
+        <nav>
+            <ul class="menu">
+                <li class="itemMenu"><a class="link" href="INDEX.HTML">Inicio</a></li>
+                <li class="itemMenu dropdown"><a href="INDEX.HTML">Catálogo</a>
+                    <ul class="submenu">
+                        <li><a class="link" href="cursos.html">Cursos</a></li>
+                        <li><a class="link" href="merch.html">Merchandising</a></li>
+                        <li><a class="link" href="elementos.html">Elementos de entrenamiento</a></li>
+                    </ul>
+                </li>
+                <li class="itemMenu"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="iconoCarrito">
+            🛒 <span id="contadorCarrito">0</span>
+        </div>
+    </header>
+    <section class="portadaGenero rock">
+        <h1>Rock</h1>
+        <p>Los mejores álbumes clásicos y modernos del género.</p>
+    </section>
+    <main class="contenedor">
+        <h2>Nuestros Seminarios</h2>
+
+        <section class="contenedorCards">
+            <div class="producto" data-price="32000">
+                <img src="/maqueta/img/7bd7b01643d0886ef5dbfca8fad0e41f.300x300x1.png" alt="">
+                <h3>The Neighbourhood - Wiped Out! 10th Aniversary edition</h3>
+                <p class="precio">$32 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+
+            <div class="producto" data-price="21000">
+                <img src="/maqueta/img/iloveyou.jpeg" alt="">
+                <h3>The Neighbourhood - I Love You</h3>
+                <p class="precio">$21 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+
+            <div class="producto" data-price="18000">
+                <img src="/maqueta/img/Queen_A_Night_At_The_Opera.png" alt="">
+                <h3>Queen - A Night at the Opera</h3>
+                <p class="precio">$18 000</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-price="19500">
+                <img src="/maqueta/img/Ramones_-_Ramones_cover.jpg" alt="">
+                <h3>Ramones - Ramones</h3>
+                <p class="precio">$19 500</p>
+                <button class="agregar">Agregar al carrito</button>
+            </div>
+        </section>
+        <aside class="carritoPanel" id="carritoPanel">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista"></ul>
+            <p class="total">Total: <span class="totalPrecio">$0</span></p>
+            <button id="vaciar">Vaciar Carrito</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 VinylStore - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./app/categorias.JS"></script>
+</body>
+
+</html>

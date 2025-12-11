@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalamus Warrior - Elementos de entrenamiento</title>
+    <link rel="stylesheet" href="./categorias.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">Kalamus Warrior</div>
+        <nav>
+            <ul class="menu">
+                <li class="itemMenu"><a class="link" href="INDEX.HTML">Inicio</a></li>
+                <li class="itemMenu dropdown"><a href="INDEX.HTML">Catálogo</a>
+                    <ul class="submenu">
+                        <li><a class="link" href="cursos.html">Cursos</a></li>
+                        <li><a class="link" href="merch.html">Merchandising</a></li>
+                        <li><a class="link" href="elementos.html">Elementos de entrenamiento</a></li>
+                    </ul>
+                </li>
+                <li class="itemMenu"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="iconoCarrito">
+            🛒 <span id="contadorCarrito">0</span>
+        </div>
+    </header>
+    <main class="contenedor">
+        <h2>Contactése con nosotros</h2>
+        <ul>
+            <li>E-mail: hector@gmail.com</li>
+            <li>Whatsapp: 11 48591112</li>
+            <li>Teléfono: 48312327</li>
+        </ul>
+        <aside class="carritoPanel" id="carritoPanel">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista"></ul>
+            <p class="total">Total: <span class="totalPrecio">$0</span></p>
+            <button id="vaciar">Vaciar Carrito</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 VinylStore - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./app/categorias.JS"></script>
+</body>
+
+</html>
