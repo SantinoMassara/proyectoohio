@@ -12,7 +12,7 @@ body {
 
 .header {
     background-color: #000;
-    color: #fff;
+    color: #9e1e1e;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -259,4 +259,5 @@ footer {
 .buscador input:focus {
     border-color: #6b4eff;
     box-shadow: 0 0 5px rgba(107, 78, 255, 0.5);
+
 }
